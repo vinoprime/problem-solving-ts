@@ -1,0 +1,26 @@
+{
+  "name": "problem-solving-ts",
+  "version": "1.0.0",
+  "description": "NodeJS Typescript based",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "start:compile": "tsc --watch",
+    "start:dev": "nodemon dist/index.js",
+    "npm-prod": "npm install --omit=dev --legacy-peer-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinoprime/problem-solving-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinoprime/problem-solving-ts/issues"
+  },
+  "homepage": "https://github.com/vinoprime/problem-solving-ts#readme",
+  "devDependencies": {
+    "@types/node": "^18.8.2"
+  }
+}
