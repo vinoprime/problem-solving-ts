@@ -32,17 +32,33 @@ import { sumOfArry } from "./sum-of-array";
 
 //  printString();
 
-// let arr = [7, 10, 4, 3, 12]
+let arr = [7, 10, 4, 3, 12, 85, 1]
 
-// for (let i = 0; i < arr.length; i++) {
+let min = 0
+let max = 0
+for (let i = 0; i < arr.length; i++) {
+    // to find max number
+    if (max < arr[i]) {
+        max = arr[i]
+    }
+}
+min = max
+let minPos = 2
+for (let i = 0; i < arr.length; i++) {
+    // to find minimum number
+    if (min > arr[i]) {
+        // minPos--;
+        // if (minPos == 0) 
+        min = arr[i]
+        console.log("min")
+    }
+}
 
-//     // to find minimum number
-//     if (arr[i] < arr[i]){
-//         console.log(arr[i])
-//     }
-// }
 
-// console.log("--")
+console.log("max", max)
+console.log("min", min)
 
-const server = require("./system-design")
+console.log("--")
+
+// const server = require("./system-design")
 
